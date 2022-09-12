@@ -57,24 +57,12 @@ class Stack
     {
         return size;
     }
-    void printS()
-    {
-        Node<T>* h=head;
-        Print(h);
-    }
-    void Print(Node<T> *H)
-    {
-        if (H == NULL)
-            return;
-        Print(H->next);
-        cout << H->data << " ";
-    }
 };
 /**
- * Functions To be Implemented --->
+ * Functions Implemented --->
  * Push()
  * Size()
  * Top()
- * isEmpty
+ * isEmpty()
  * Pop()
  **/
